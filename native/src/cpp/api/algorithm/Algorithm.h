@@ -79,7 +79,7 @@ class Algorithm {
 		std::set<DataKeyDimension> getExpectedDimensions() const;
 
 
-		~Algorithm();
+		virtual ~Algorithm();
 
 	protected:
 
